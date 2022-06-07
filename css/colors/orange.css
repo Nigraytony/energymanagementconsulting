@@ -1,0 +1,136 @@
+a{
+	color: black;
+}
+a:hover{
+	color: black;
+}
+.btn-common{
+    background-color: black;
+}
+.btn-border:hover{
+	background-color: black;
+}
+.controls .active{
+	color: black !important;
+    border-color: black;
+}
+.bg-defult{
+	background: black!important;
+}
+#carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i{
+	background: black;
+}
+.section-header .section-title:before{
+	background: black;
+}
+.overlay{
+	background: black;
+}
+.bg-white .navbar-nav .active{
+	color: black!important;
+}
+.menu-bg .navbar-nav .active{
+	color: black!important;
+}
+.menu-bg .navbar-nav .nav-link:hover{
+	color: black!important;
+}
+.navbar-expand-md .navbar-nav .active > .nav-link, .navbar-expand-md .navbar-nav .nav-link.active, .navbar-expand-md .navbar-nav .nav-link.active::before, .navbar-expand-md .navbar-nav .nav-link.open, .navbar-expand-md .navbar-nav .open > .nav-link{
+	color: black;
+}
+.navbar-expand-md .navbar-nav .nav-link:focus, .navbar-expand-md .navbar-nav .nav-link:hover, .navbar-expand-md .navbar-nav .nav-link:hover:before{
+	color: black;
+}
+.navbar-expand-md .navbar-nav .nav-link:before{
+	background: black;
+}
+.menu-bg .logo-menu a, .menu-bg .menu-button:hover{color: black;}
+.menu-wrap .navbar-nav li .active,
+.menu-wrap .navbar-nav li .active::before{
+	color: black;
+}
+.menu-wrap a:hover, .menu-wrap a:focus{
+	color: black;
+}
+.icon-list a::before {
+    background: black;
+}
+#about .box-item .icon i{
+	color: black;
+}
+.item-boxes .icon{
+	border-color: black;
+}
+.item-boxes .icon i{
+	color: black;
+}
+.featured-box .featured-icon i{
+	color: black; 
+}
+.controls .mixitup-control-active{
+	color: black!important;
+	border-color: black;
+}
+.testimonial-item .author .author-info h2 a:hover{
+	color: black;
+}
+.testimonial-item .content-inner span{
+	color: black;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: black;
+}
+#subscribe .sub-item-box .icon-box i{
+	color: black;
+}
+#blog .blog-item-text h3 a:hover{
+	color: black;
+}
+.meta-tags span a:hover{
+	color: black;
+}
+.form-control:focus{
+	border: 1px solid black
+}
+#contact:before{
+	background: black;
+}
+.contact-info i{
+	color: black;
+}
+.back-to-top i{
+	background-color: black;
+}
+.single-team .social-list li a{
+	color: black;
+}
+.footer-social li a{
+	background: black;
+}
+footer .menu li a:hover{
+	color: black;
+}
+.contact-footer li span a:hover{
+	color: black;
+}
+.toggle-map{
+	background-color: black;
+}
+.toggle-map .map-icon{
+	border-color: black;
+}
+.counter-item .icon i{
+	color: black;
+}
+#google-map{
+	border-color: black;
+}
+#subscribe form input:focus{
+	border-color: black;
+}
+#copyright p a:hover{
+	color: black;
+}
+#copyright .nav-inline .nav-link:hover{
+	color: black;
+}
