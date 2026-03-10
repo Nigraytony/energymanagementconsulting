@@ -18,8 +18,8 @@ API source lives in `api/`.
 Required production environment variables in Azure Static Web Apps:
 
 - `SENDGRID_API_KEY`
-- `CONTACT_TO_EMAIL` (set to `[redacted-contact-inbox]`)
-- `CONTACT_FROM_EMAIL` (set to `[redacted-sender]`)
+- `CONTACT_TO_EMAIL` (internal inbox for website inquiries)
+- `CONTACT_FROM_EMAIL` (verified sender address in SendGrid)
 - Optional: `CONTACT_CC_EMAIL`
 - Optional: `CONTACT_SUBJECT_PREFIX`
 
