@@ -3,3 +3,4 @@ dist
 api/node_modules
 api/.env
 *.local
+.DS_Store

@@ -41,36 +41,42 @@ export const serviceGroups = [
 
 export const team = [
   {
-    name: "Nigel Gray",
-    title: "Chief Executive Officer (CEO)",
-    image: "/img/team/team1.jpg",
-    bio: "Nigel Gray has been in the construction industry for nearly 25 years. He is competent in both commissioning and controls. He lives in Atlanta, GA with his family."
+    name: 'Nigel Gray',
+    title: 'Chief Executive Officer (CEO)',
+    image: '/img/team/team1.jpg',
+    label: 'Leadership',
+    badges: ['25+ Years Experience', 'QCxP', 'BCxP', 'Controls'],
+    bio: 'Nigel Gray brings nearly 25 years of construction industry experience with hands-on expertise in both commissioning and controls. He provides leadership grounded in practical field execution and long-term building performance.'
   },
   {
-    name: "Ray Melancon",
-    title: "Chief Operating Officer (COO), Commissioning and Controls Engineer",
-    image: "/img/team/team2.jpg",
-    bio: "Ray Melancon is a commissioning and controls engineer. He received his QCxP from UW Madison, his LEED GA from the USGBC, and is Niagara N4 certified. He lives in Atlanta, GA with his family."
+    name: 'Ray Melancon',
+    title: 'Chief Operating Officer (COO), Commissioning and Controls Engineer',
+    image: '/img/team/team2.jpg',
+    label: 'Commissioning',
+    badges: ['QCxP', 'LEED GA', 'Niagara N4'],
+    bio: 'Ray Melancon is a commissioning and controls engineer with deep technical experience in system performance, building automation, and project delivery. He combines certified commissioning leadership with strong BAS expertise across commercial projects.'
   },
   {
-    name: "Erik Merz",
-    title: "Controls Director",
-    image: "/img/team/team3.jpg",
-    bio: "Erik Merz has been leading the controls integration process for over 25 years. He is an expert in Niagara N4 and AX. He is comfortable with Johnson Controls FX and Metasys and is certified and proficient on several controls and equipment platforms. Erik lives in Jacksonville, NC."
-  }
+    name: 'Erik Merz',
+    title: 'Controls Director',
+    image: '/img/team/team3.jpg',
+    label: 'Controls',
+    badges: ['25+ Years Experience', 'Niagara N4', 'JCI FX', 'Metasys'],
+    bio: 'Erik Merz has led controls integration efforts for more than 25 years and brings extensive experience in BAS programming, system integration, and controls platform execution. His background includes Niagara, Johnson Controls FX, Metasys, and multiple equipment platforms.'
+  },
 ];
 
 // Add or edit portfolio cards here as new projects are completed.
 // `image` should reference a file in `public/img/portfolio`.
 export const portfolio = [
   {
-    title: "NGTC - Ivester Center",
-    category: "Education",
-    image: "/img/portfolio/Ivester Center - website.jpg"
+    title: "Boston Scientific - Johns Creek",
+    category: "Pharmaceutical",
+    image: "/img/portfolio/BSC-JohnsCreek.png"
   },
   {
-    title: "Camp Lejeune",
-    category: "Public Works",
+    title: "Marine Base Camp Lejeune",
+    category: "Military",
     image: "/img/portfolio/Camp Lejune - website.jpeg"
   },
   {
@@ -84,9 +90,9 @@ export const portfolio = [
     image: "/img/portfolio/Sugar Hill - website.jpg"
   },
   {
-    title: "Birmingham City Hall",
-    category: "Public Works",
-    image: "/img/portfolio/Birmingham City Hall - Portfolio.jpg"
+    title: "Wesleyan College - Young Hall",
+    category: "K-12 and Higher Education",
+    image: "/img/portfolio/Young_Hall_front.jpg"
   },
   {
     title: "Birmingham Central Library",

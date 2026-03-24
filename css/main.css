@@ -385,12 +385,12 @@ button:focus {
 
 @keyframes sk-bounce {
   0%, 100% {
-    transform: scale(0);
     -webkit-transform: scale(0);
+    transform: scale(0);
   }
   50% {
-    transform: scale(1);
     -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -1246,10 +1246,10 @@ button:focus {
   text-align: center;
   margin-bottom: 30px;
   position: relative;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 
@@ -1271,10 +1271,10 @@ button:focus {
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1);
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .services-item .color-1 i {
@@ -1361,10 +1361,10 @@ button:focus {
 .featured-bg .featured-item {
   margin-bottom: 30px;
   position: relative;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .featured-bg .featured-item .icon {
@@ -1377,10 +1377,10 @@ button:focus {
   text-align: center;
   margin-bottom: 30px;
   color: #00985F;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .featured-bg .featured-item h3 {
@@ -1444,10 +1444,10 @@ button:focus {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .featured-box .featured-content p {
@@ -1641,10 +1641,10 @@ button:focus {
   background: #fff;
   border: 2px solid #fff;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-  transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
@@ -1918,9 +1918,9 @@ button:focus {
 #blog .blog-item-text h3 a {
   color: #263238;
 }
-
-#blog .blog-item-text h3 a:hover {
   color: #00985F;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .meta-tags {
@@ -1996,9 +1996,9 @@ button:focus {
   padding-bottom: 25px;
   margin-bottom: 25px;
 }
-
-.blog-comment .comment-list .children {
   padding-left: 40px;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .blog-comment .avatar {
@@ -2054,9 +2054,9 @@ button:focus {
   border-radius: 30px;
   border: 1px solid transparent;
   background: #f5f5f5;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .form-control:focus {
@@ -2081,9 +2081,9 @@ textarea {
   font-size: 25px;
   color: white;
   margin-left: auto;
-  margin-right: auto;
-}
 
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 .contact-info h5 {
   margin-top: 5px;
   font-size: 18px;
@@ -2371,9 +2371,9 @@ footer .menu li a:hover {
 }
 
 
-
-.instagram-footer li a img {
   width: 100%;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   border-radius: 10px;
   text-align: right;
 }
